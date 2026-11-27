@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#102b4e">
+<title>Portal Data PKL | Dishub Kota Yogyakarta</title>
+<style>
+:root{--navy:#102b4e;--navy2:#173d68;--gold:#d8ad58;--ink:#18283a;--muted:#64748b}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:#f4f6f8}
+.hero{position:relative;overflow:hidden;background:linear-gradient(120deg,#0c2340 0%,#173d68 65%,#24527a 100%);color:white;padding:46px 20px 76px}
+.hero:before{content:"";position:absolute;inset:0;opacity:.14;background-image:radial-gradient(circle at 20% 30%,transparent 0 13px,var(--gold) 14px 15px,transparent 16px),radial-gradient(circle at 70% 60%,transparent 0 13px,var(--gold) 14px 15px,transparent 16px);background-size:48px 48px}
+.hero-inner{position:relative;max-width:1080px;margin:auto}
+.topline{display:flex;align-items:center;gap:12px;font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:#f1d9a7;font-weight:750}
+.mark{width:42px;height:42px;border:1px solid #d8ad58;border-radius:50%;display:grid;place-items:center;color:#f0d49c;font-size:21px}
+h1{font-size:clamp(30px,5vw,52px);line-height:1.06;max-width:720px;margin:30px 0 14px;letter-spacing:-.035em}
+.lead{color:#e0e9f2;max-width:650px;line-height:1.7;font-size:16px;margin:0}
+.goldline{width:72px;height:4px;background:var(--gold);margin-top:25px;border-radius:8px}
+.wrap{max-width:1080px;margin:-38px auto 0;padding:0 20px 54px;position:relative}
+.intro{background:white;border:1px solid #e5eaf0;border-radius:18px;padding:23px 25px;box-shadow:0 14px 40px #102b4e12;display:flex;justify-content:space-between;gap:20px;align-items:center}
+.intro h2{margin:0 0 6px;font-size:18px;color:var(--navy)}.intro p{margin:0;color:var(--muted);font-size:14px;line-height:1.6}
+.pill{white-space:nowrap;border:1px solid #ead7b2;background:#fff9ed;color:#805b1e;border-radius:999px;padding:9px 13px;font-size:12px;font-weight:700}
+.section-head{display:flex;justify-content:space-between;align-items:end;margin:35px 2px 16px;gap:12px}.section-head h2{margin:0;color:var(--navy);font-size:22px}.section-head span{font-size:12px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+.card{background:white;border:1px solid #e5eaf0;border-radius:18px;overflow:hidden;box-shadow:0 7px 24px #102b4e0b;transition:transform .2s,box-shadow .2s;display:flex;min-height:176px}
+.card:hover{transform:translateY(-4px);box-shadow:0 15px 32px #102b4e18}
+.band{width:9px;flex:none}.cardbody{padding:22px;display:flex;gap:17px;align-items:flex-start;width:100%}
+.ico{width:54px;height:54px;border-radius:15px;display:grid;place-items:center;font-size:27px;flex:none}
+.card h3{margin:1px 0 7px;font-size:19px;color:var(--navy)}.card p{margin:0;color:#64748b;line-height:1.55;font-size:13px}
+.meta{display:inline-flex;margin-top:14px;font-size:11px;font-weight:750;letter-spacing:.06em;text-transform:uppercase;color:#64748b}
+.planning .band{background:#2f70b7}.planning .ico{background:#eaf3fc}
+.traffic .band{background:#e5b23d}.traffic .ico{background:#fff6df}
+.transport .band{background:#c95158}.transport .ico{background:#fff0f0}
+.safety .band{background:#3d966e}.safety .ico{background:#eaf7f0}
+.note{margin-top:22px;border:1px dashed #cbd5e1;border-radius:14px;padding:16px 18px;color:#64748b;font-size:13px;line-height:1.65;background:#ffffffa8}
+footer{text-align:center;padding:25px 20px 36px;color:#718096;font-size:12px}footer strong{color:#43566c}
+@media(max-width:650px){.hero{padding:35px 18px 68px}.wrap{padding:0 14px 38px}.intro{align-items:flex-start;flex-direction:column}.grid{grid-template-columns:1fr}.card{min-height:150px}.cardbody{padding:18px}.section-head{align-items:flex-start;flex-direction:column}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="hero-inner">
+<div class="topline"><span class="mark">✦</span><span>Portal Data Praktik Kerja Lapangan</span></div>
+<h1>Data PKL<br>Dishub Kota Yogyakarta</h1>
+<p class="lead">Pusat pengelolaan dan akses data bidang transportasi untuk mendukung kegiatan Praktik Kerja Lapangan Program Studi D-III Manajemen Transportasi Jalan.</p>
+<div class="goldline"></div>
+</div></header>
+<main class="wrap">
+<section class="intro"><div><h2>Selamat datang di Portal Data PKL</h2><p>Pilih bidang data yang ingin diakses. Setiap kategori disusun untuk memudahkan pencarian dokumen, rekapitulasi, dan bahan analisis transportasi.</p></div><span class="pill">Yogyakarta • Istimewa</span></section>
+<div class="section-head"><h2>Bidang Data</h2><span>4 KATEGORI UTAMA</span></div>
+<section class="grid" aria-label="Kategori data">
+<article class="card planning"><div class="band"></div><div class="cardbody"><div class="ico">📐</div><div><h3>Planning</h3><p>Data perencanaan transportasi, jaringan jalan, tata ruang, serta dokumen pendukung perencanaan.</p><span class="meta">Perencanaan transportasi</span></div></div></article>
+<article class="card traffic"><div class="band"></div><div class="cardbody"><div class="ico">🚦</div><div><h3>Traffic Engineering</h3><p>Data rekayasa lalu lintas, perlengkapan jalan, manajemen lalu lintas, dan kinerja ruas maupun simpang.</p><span class="meta">Rekayasa lalu lintas</span></div></div></article>
+<article class="card transport"><div class="band"></div><div class="cardbody"><div class="ico">🚌</div><div><h3>Public Transport</h3><p>Data angkutan umum, pelayanan, trayek, armada, halte, terminal, dan operasional angkutan.</p><span class="meta">Angkutan umum</span></div></div></article>
+<article class="card safety"><div class="band"></div><div class="cardbody"><div class="ico">🛡️</div><div><h3>Safety</h3><p>Data keselamatan jalan, kecelakaan lalu lintas, titik rawan, audit keselamatan, dan penanganan risiko.</p><span class="meta">Keselamatan transportasi</span></div></div></article>
+</section>
+<div class="note"><strong>Catatan pengelolaan:</strong> Tautan folder dokumen untuk masing-masing bidang akan dihubungkan setelah URL folder resmi tersedia. Portal ini merupakan halaman indeks; akses dokumen tetap mengikuti ketentuan dan izin dari pengelola data.</div>
+</main>
+<footer><strong>PORTAL DATA PKL</strong> · Dinas Perhubungan Kota Yogyakarta<br>Program Studi D-III Manajemen Transportasi Jalan</footer>
+</body></html>
